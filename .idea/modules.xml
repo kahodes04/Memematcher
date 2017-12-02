@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Memematcher.iml" filepath="$PROJECT_DIR$/Memematcher.iml" />
-      <module fileurl="file://E:\Memematcher\Memematcher.iml" filepath="E:\Memematcher\Memematcher.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\Memematcher\app\app.iml" filepath="E:\Memematcher\app\app.iml" />
     </modules>
   </component>
 </project>
