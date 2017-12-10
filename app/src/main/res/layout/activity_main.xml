@@ -1,30 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darkbackground"
+    android:id="@+id/linearlayoutmainscreen"
+    android:weightSum="1"
     android:orientation="vertical">
     <RelativeLayout
         android:id="@+id/selectbundesliga"
         android:layout_width="fill_parent"
-        android:background="@color/darkred"
-        android:layout_height="3dp"/>
-    <TextView
+        android:layout_height="3dp"
+        android:background="@color/darkred"/>
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Have you seen this girl?"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#cccccc"/>
+        android:scaleType="fitCenter"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:layout_weight=".1"
+        android:id="@+id/haveyou"
+        android:src="@drawable/haveyou"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:layout_weight=".1"
+        android:id="@+id/seenthese"
+        android:src="@drawable/seenthese"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:layout_weight=".1"
+        android:id="@+id/girls"
+        android:src="@drawable/girls"/>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
         android:background="@color/darkbackground"
+        android:layout_height="0dp"
         android:weightSum="1"
+        android:layout_weight=".8"
         android:orientation="vertical">
     <ImageView
         android:layout_width="wrap_content"
@@ -33,6 +54,7 @@
         android:layout_gravity="bottom"
         android:layout_weight="1"
         android:background="@null"
+        android:id="@+id/imgdanschneider"
         android:src="@drawable/danschneider"/>
     </LinearLayout>
 </LinearLayout>
